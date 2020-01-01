@@ -15,8 +15,7 @@ body {
 
 .Home-content-left {
   background: #1da1f2;
-  /*position: relative;*/
-  /*overflow: hidden;*/
+  background-image: url("img/bigbluebird.png");
   align-items: center;
   display: flex;
   flex: 1;
