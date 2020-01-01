@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #e6ecf0;
+  color: #14171a;
+  font-size: 14px;
+  line-height: 20px;
+  overflow-y: scroll;
+  position: relative;
+  margin: 0;
+}
+
+.LoggedOutHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.LoggedOutHome-content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #fff;
+  height: 700px;
+}
+
+.LoggedOutHome-content-left {
+  background: #1da1f2;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.information {
+  color: #fff;
+  padding: 0 16px;
+  position: relative;
+}
+
+.icon {
+  margin-right: 16px;
+  width: 32px;
+  display: inline-block;
+  vertical-align: baseline;
+  position: relative;
+}
+
+.information-item {
+  display: flex;
+  font-size: 18px;
+  font-width: bold;
+  line-height: 24px;
+  margin: 48px auto;
+}
+
+.LoggedOutHome-content-right {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.login {
+  left: 0;
+  top: 20px;
+  width: 100%;
+  position: absolute;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form1 {
+  margin-right: 12px;
+  width: 210px;
+}
+
+.form1 input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.form1 a {
+  text-decoration: none;
+  color: #aab8c2;
+}
+
+#loginsubmit {
+  height: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  background-color: #fff;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.suggestion {
+  max-width: 350px;
+
+}
+
+#bluebird {
+  width: 45px;
+  margin-bottom: 8px;
+}
+
+#sug1 {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+#sug2 {
+  margin-top: 48px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+#sug3 a {
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #1da1f2;
+  display: block;
+  margin-top: 16px;
+}
+
+#signup {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+#signin {
+  background-color: #fff;
+  color: #1da1f2;
+}
+
+.footer {
+  border-top: 1px solid #e6ecf0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 11px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.footer-list {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+.footer-list-item {
+  color: #aab8c2;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 9px 0 9px;
+}
+
+.footer-list-item a {
+  color: #aab8c2;
+  font-size: 12px;
+  text-decoration: none;
+}
