@@ -1,66 +1,43 @@
 @charset "utf-8";
 
-html {
-  font-family: sans-serif;
-}
-
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-color: #e6ecf0;
-  color: #14171a;
   font-size: 14px;
   line-height: 20px;
-  overflow-y: scroll;
-  position: relative;
   margin: 0;
 }
 
-.LoggedOutHome {
-  display: flex;
-  flex-direction: column;
-}
-
-.LoggedOutHome-content {
+.Home-content {
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
-  background-color: #fff;
-  height: 700px;
+  height: 100vh;
 }
 
-.LoggedOutHome-content-left {
+.Home-content-left {
   background: #1da1f2;
-  position: relative;
-  overflow: hidden;
+  /*position: relative;*/
+  /*overflow: hidden;*/
   align-items: center;
   display: flex;
   flex: 1;
   justify-content: center;
 }
 
-.information {
-  color: #fff;
-  padding: 0 16px;
-  position: relative;
-}
-
 .icon {
   margin-right: 16px;
   width: 32px;
-  display: inline-block;
-  vertical-align: baseline;
-  position: relative;
 }
 
 .information-item {
   display: flex;
   font-size: 18px;
+  color: #fff;
   font-width: bold;
-  line-height: 24px;
+  line-height: 32px;
   margin: 48px auto;
 }
 
-.LoggedOutHome-content-right {
+.Home-content-right {
   align-items: center;
   display: flex;
   flex: 1;
@@ -75,37 +52,34 @@ body {
   position: absolute;
 }
 
-.loginform {
+.login-form {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.form1 {
+.form-item {
   margin-right: 12px;
   width: 210px;
 }
 
-.form1 input {
+.form-item input {
   width: 100%;
   padding: 12px;
   box-sizing: border-box;
   margin-top: 12px;
-  background-color: #fff;
   border: 1px solid #e6ecf0;
   border-radius: 3px;
   font-size: 14px;
   line-height: 20px;
 }
 
-.form1 a {
+.form-item a {
   text-decoration: none;
   color: #aab8c2;
 }
 
-#loginsubmit {
+#login-submit {
   height: 100%;
   padding: 12px;
   box-sizing: border-box;
@@ -121,12 +95,10 @@ body {
 
 .suggestion {
   max-width: 350px;
-
 }
 
 #bluebird {
-  width: 45px;
-  margin-bottom: 8px;
+  width: 50px;
 }
 
 #sug1 {
@@ -155,12 +127,12 @@ body {
   margin-top: 16px;
 }
 
-#signup {
+#sign-up {
   background-color: #1da1f2;
   color: #fff;
 }
 
-#signin {
+#sign-in {
   background-color: #fff;
   color: #1da1f2;
 }
