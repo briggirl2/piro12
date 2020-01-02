@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.footer {
+  border-top: 1px solid #e6ecf0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 11px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.footer-list {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+.footer-list-item {
+  color: #aab8c2;
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 9px 0 9px;
+}
+
+.footer-list-item a {
+  color: #aab8c2;
+  font-size: 12px;
+  text-decoration: none;
+}
