@@ -1,0 +1,97 @@
+       #sbody_3 {
+            width: 100%;
+            border: 0px;
+            background-color: #f5f8fd;
+           padding: 60px 0;
+        }
+        #smain_3 {
+            width: 1110px;
+            border: 0px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #swrap_3 {
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #sheader_3 {
+            text-align: center;
+        }
+
+        #sheader_3 > h3 {
+            font-size: 36px;
+            width: 50%;
+            display: inline-block;
+        }
+
+        #sheader_3 > p {
+            padding-bottom: 60px;
+        }
+
+        .box_3  {
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 0 15px 40px 15px;
+            background: #fff;
+            box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+            width: 330px;
+            float: left;
+        }
+
+        .box_3:hover {
+            transform: scale(1.1);
+        }
+
+
+        .box_3 > div {
+            margin: 0 auto 15px auto;
+            padding-top: 12px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 100%;
+            width: 80px;
+            height: 70px;
+        }
+
+        .icon_3 img {
+            width: 50px;
+            height: 50px;
+        }
+        .iconback1_3 {
+            background-color: #f5f8fd;
+        }
+        .iconback2_3 {
+            background-color: #fff0da;
+        }
+        .iconback3_3 {
+            background-color: #e6fdfc;
+        }
+        .iconback4_3 {
+            background-color: #eafde7;
+        }
+        .iconback5_3 {
+            background-color: #e1eeff;
+        }
+        .iconback6_3 {
+            background-color: #ecebff;
+        }
+
+        .slink_3 > a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            color: black;
+            transition: 0.3s;
+        }
+
+        .box_3:hover >  h4 > a {
+            color: #1bb1dc;
+        }
+

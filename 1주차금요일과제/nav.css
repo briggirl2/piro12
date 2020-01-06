@@ -1,0 +1,55 @@
+body{
+    margin:0;
+}
+nav {
+    width: 100%;
+    position:fixed;
+    background:white;
+    margin:0 0 0 0;
+    padding: 10px 0;
+    overflow:hidden;
+    float:right;
+
+
+} 
+.rapid_4{
+    position:absolute;
+    left:200px;
+    font-size:36px;
+    color:#413e66;
+    box-sizing:border-box;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    float:left;
+}
+.nav_4{
+    float: left;
+    position: relative;
+    left:700px;
+    color: #413e66;
+    padding: 10px 10px;
+    margin:10 0 0 0;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-decoration: none; 
+    text-align:center;
+}
+.nav_4:hover {
+
+color:skyblue;
+}
+
+.sociallinks_4 img{
+    width:10px;
+    height:auto;
+    float:right;
+    margin:0 10px 0 0;
+    right:35.5%;
+    top:-1px;
+    position:relative;
+    
+}

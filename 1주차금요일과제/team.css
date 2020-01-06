@@ -1,0 +1,107 @@
+
+#team_1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 60px 0;
+    background-color: #f5f8fd;
+    width: 100%;
+    min-height: 500px;
+}
+
+#team_content_1 {
+    /*width: 80%;*/
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#team_content_title_1 {
+    height: 60px;
+    text-align: center;
+}
+
+#team_content_title_1 h3 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+#team_content_subtitle_1 {
+    height: 80px;
+    text-align: center;
+}
+
+#team_content_subtitle_1 p {
+    margin: 0 0 60px;
+    font-size: 15px;
+}
+
+
+
+.team_img_1 {
+    width: 240px;
+    height: 210px;
+    padding: 15px 15px;
+    float: left;
+    position: relative;
+}
+
+
+.team_img_item_1 {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    z-index: 10;
+}
+
+.team_img_item_1:hover + .mem_info_1 {
+    top: 50%;
+    height: 75px;
+}
+
+.mem_info_1 {
+    padding: 45px 0;
+    text-align: center;
+    z-index: 20;
+    background-color: rgba(29, 28, 41, 0.6);
+    position: absolute;
+    width: 210px;
+    overflow: hidden;
+    height: 33px;
+    top: 70%;
+    transition: 0.3s;
+}
+
+.mem_info_1:hover {
+    top: 50%;
+    padding: 0 0 20px 0;
+    height: 105px;
+}
+
+.mem_name_1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.mem_position_1 {
+    font-size: 14px;
+    font-style: italic;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.mem_sns_1 {
+    line-height: 20px;
+    z-index: 50;
+}
+.mem_sns_1 a {
+    text-decoration: none;
+}
+
+.mem_sns_1 a i {
+    color: white;
+}
+
+

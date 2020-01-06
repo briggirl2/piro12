@@ -1,0 +1,86 @@
+
+#intro_2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("https://bootstrapmade.com/demo/themes/Rapid/img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+}
+
+section#intro_2 {}
+
+#intro_2 .intro-info h2 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#intro_2 .intro-info h2 span {
+  color: #1bb1dc;
+}
+
+#intro_2 .intro-info .btn-get-started,
+#intro_2 .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #ffffff;
+  background: #1bb1dc;
+}
+
+#intro_2 .intro-info .btn-get-started:hover,
+#intro_2 .intro-info .btn-services:hover {
+  background: #0a98c0;
+}
+
+/*.container{*/
+/*    width: 100%;*/
+/*    padding-right: 15px;*/
+/*    padding-left: 15px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+/*.row{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*    align-self: center;*/
+/*}*/
+/*.intro-info{*/
+/*    padding-top: 80px;*/
+/*}*/
+/*.img-fluid{*/
+/*    flex: 0 0 50%;*/
+/*    position: relative;*/
+/*    max-width: 50%;*/
+/*}*/
+#intro_2 .container{
+    margin: 0 auto;
+    width: 100%; height: 100%;
+    padding: 0 15px;
+    max-width: 1140px;
+    display: flex;
+}
+#intro_2 .row{
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#intro_2 .row .col-md-6{
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+#intro_2 .img-fluid{
+  max-width: 100%;
+  height: auto;
+}

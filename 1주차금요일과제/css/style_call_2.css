@@ -1,0 +1,60 @@
+
+#call-to-action_2 {
+  background: #2d2b46;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#call-to-action_2 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action_2 .cta-text {
+  color: #fff;
+}
+
+#call-to-action_2 .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+#call-to-action_2 .cta-btn:hover {
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
+}
+#call-to-action_2 .row{
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+#call-to-action_2 .row>div{
+  padding: 0 15px;
+}
+#call-to-action_2 .row> :nth-child(1){
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+#call-to-action_2 .col-lg-3{
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+#call-to-action_2 .cta-btn{
+    text-decoration: none;
+}
+
+
+

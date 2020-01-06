@@ -1,0 +1,188 @@
+ #footer_5{
+            padding:0 0 30px;
+     width:100%;
+     background-color:#f5f8fd;
+
+        }
+        #footer_5 a{
+            text-decoration: none!important;
+            color:black!important;
+        }
+        .footer-top_5{
+            padding: 60px 0 30px 0;
+            background-color: #f5f8fd;
+        }
+        .container_5{
+            width: 1100px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin: 0 auto;
+        }
+        .row_5{
+            margin:0;
+            width:50%
+            overflow:hidden;
+            position: relative;
+            padding-right: 15px;
+            padding-left: 15px;
+            display:inline-block;
+            float:left;
+        }
+        .footer_left_5{
+            width:50%;
+            float:left;
+            overflow:hidden;
+            display:inline-block;
+        }
+        .row1_5{
+            padding: 0 15px;
+            width:50%;
+            float:left;
+            overflow:hidden;
+        }
+        .row2_5{
+            overflow:hidden;
+            width:40%;
+            float:right;
+            margin-bottom: 30px;
+        }
+        #footer_5 h3{
+            font-size: 34px;
+            margin: 0 0 20px 0;
+            padding:2px 0;
+            line-height:1;
+            font-weight:400;
+            letter-spacing: 3px;
+        }
+       #footer_5 h4{
+                font-size: 14px;
+                font-weight: bold;
+            padding-bottom:10px;
+        }
+        .Footer_Rapid_5 p{
+            font-size: 13px;
+            line-height: 24px;
+            margin-bottom:30px
+        }
+
+        .Footer_newsletter_5 p{
+            font-size: 14px;
+        }
+        .Footer_newsletter_5 input [type="email"]{
+            padding: 6px 8px;
+            width: 65%;
+
+            border: 1px solid #d9dde6;
+        }
+        .Footer_newsletter_5 input[type="email"]{
+            height:24px;
+        }
+        .Footer_newsletter_5 input[type="submit"]{
+            background: #1bb1dc;
+            border: 1px solid #1bb1dc;
+            width: 35%;
+            padding: 6px 0;
+            text-align: center;
+            color: #fff;
+        }
+        #footer_5 ul{
+            margin:0; padding:0;
+        }
+        .Footer-links_5 ul{
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        .Footer-links_5 ul li{
+            padding: 0 0 8px;
+            font-size: 14px;
+        }
+        .social-links_5{
+            width: 100%;
+            height: 100px;
+            text-decoration: none;
+            color: #f5f8fd;
+        }
+
+        #footer_5 img{
+            border-radius: 100%;
+
+        }
+
+        .Footer_contact_5 p{
+            font-size: 14px;
+
+        }
+
+
+        .Footer_right_5{
+            width:45%;
+            float:left;
+            padding-right: 15px;
+        }
+        .Footer_form_5 p{
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        #footer_5 .form-control_5{
+            display: block;
+            width: 90%;
+            padding: .375rem .75rem;
+        }
+        #footer_5 .form input{
+            box-shadow: none;
+            border: 1px solid #dce1ec;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5;
+            width:70%;
+            color: #495057;
+            background-color: #fff;
+            padding:6px 12px;
+
+        }
+        .form-group_5{
+    margin-bottom: 15px;
+}
+        .text-center_5{
+            text-align: center;
+        }
+
+        #footer_5 textarea {
+    overflow: auto;
+    resize: vertical;
+}
+        #footer_5 button[type="submit"] {
+            background: #1bb1dc;
+            border: 0;
+            border-radius: 3px;
+            padding: 8px 30px;
+            color: #fff;
+        }
+        .Footer_last_5{
+            width:960px;
+            margin:0 auto;
+            text-align: center;
+        }
+        .copyright_5 {
+            padding-top: 30px;
+            font-size: 15px;
+        }
+
+        .credits_5 {
+            color:#0094ff;
+        }
+
+
+.credit_container_5{
+     padding-top: 4px;
+            font-size: 14px;
+}
+    .footer_5  button:hover {
+         background-color: #0a98c0;
+         transition-duration: 0.5s;
+     }
+.Footer_newsletter_5 input[type="submit"]:hover
+{
+         background-color:#0a98c0;
+         transition-duration: 0.5s;
+     }

@@ -1,0 +1,62 @@
+.FAQ_5 html,.FAQ_5 body {
+        width:100%;
+        margin : 0; padding:0;
+      }
+
+        .FAQ_5{
+            padding:60px 0;
+            margin: 0 auto;
+            width:100%;
+            background-color: white;
+
+        }
+        .FAQ_header_5{
+            width: 1110px;
+            margin:0 auto;
+            text-align:center;
+        }
+        .FAQ_header_5 h3{
+            font-size:36px;
+            margin: 0 0 20px;
+        }
+        .FAQ_header_5 p {
+            width: 555px;
+            margin: 0 auto;
+            padding: 0 0 60px;
+        }
+
+
+        .FAQ1_5 {
+          list-style: none;
+          padding: 0;
+            width:930px;
+            margin: 0 auto;
+        }
+        .FAQ_5 > li {
+          padding: 0;
+        }
+        .list-checkbox_5 {
+          display: none;
+        }
+        .title_5 {
+          padding: 22px 20px 22px 0;
+          margin: 0;
+          border-top: 1px solid #ddd;
+          cursor: pointer;
+          display: block;
+            font-size: 20px;
+        }
+
+        .desc_5 {
+          max-height: 0;
+          overflow: hidden;
+          transition: 0.5s;
+            margin-bottom: 20px;
+        }
+
+        .list-checkbox_5:checked + .title_5 + .desc_5 {
+          max-height: 1000px;
+        }
+        .list-checkbox_5:checked+ .title_5{
+            color: #1bb1dc;
+        }
